@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <RootNamespace>OnlineMenu.Identity</RootNamespace>
-    <PackageId>OnlineMenu.Identity.Abstractions</PackageId>
-    <Description>Provider-agnostic authentication abstractions for OnlineMenu. Supports multiple authentication methods including username/password, phone OTP, email OTP, and social login.</Description>
+    <RootNamespace>Identity.Abstractions</RootNamespace>
+    <PackageId>Identity.Abstractions</PackageId>
+    <Description>Provider-agnostic authentication abstractions. Supports multiple authentication methods including username/password, phone OTP, email OTP, and social login.</Description>
   </PropertyGroup>
 
   <ItemGroup>
