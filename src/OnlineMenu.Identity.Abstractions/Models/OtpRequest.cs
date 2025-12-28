@@ -1,4 +1,4 @@
-namespace OnlineMenu.Identity.Abstractions.Models;
+namespace Identity.Abstractions.Models;
 
 /// <summary>
 /// Type of OTP delivery method

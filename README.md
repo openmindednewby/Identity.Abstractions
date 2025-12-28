@@ -1,6 +1,6 @@
-# OnlineMenu.Identity.Abstractions
+# Identity.Abstractions
 
-[![NuGet](https://img.shields.io/nuget/v/OnlineMenu.Identity.Abstractions.svg)](https://www.nuget.org/packages/OnlineMenu.Identity.Abstractions)
+[![NuGet](https://img.shields.io/nuget/v/Identity.Abstractions.svg)](https://www.nuget.org/packages/Identity.Abstractions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Provider-agnostic authentication interfaces and contracts for identity services
@@ -8,7 +8,7 @@ Provider-agnostic authentication interfaces and contracts for identity services
 ## Installation
 
 ```bash
-dotnet add package OnlineMenu.Identity.Abstractions
+dotnet add package Identity.Abstractions
 ```
 
 ## Description
@@ -17,7 +17,7 @@ Provider-agnostic authentication interfaces and contracts for identity services
 
 ## Documentation
 
-See the [NuGet package page](https://www.nuget.org/packages/OnlineMenu.Identity.Abstractions) for full documentation.
+See the [NuGet package page](https://www.nuget.org/packages/Identity.Abstractions) for full documentation.
 
 ## Contributing
 
@@ -35,5 +35,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- Issues: [GitHub Issues](https://github.com/yourusername/OnlineMenu.Identity.Abstractions/issues)
-- Discussions: [GitHub Discussions](https://github.com/yourusername/OnlineMenu.Identity.Abstractions/discussions)
+- Issues: [GitHub Issues](https://github.com/yourusername/Identity.Abstractions/issues)
+- Discussions: [GitHub Discussions](https://github.com/yourusername/Identity.Abstractions/discussions)

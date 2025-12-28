@@ -1,4 +1,4 @@
-namespace OnlineMenu.Identity.Abstractions.Abstractions;
+namespace Identity.Abstractions.Abstractions;
 
 /// <summary>
 /// Service for sending notifications (SMS, Email)

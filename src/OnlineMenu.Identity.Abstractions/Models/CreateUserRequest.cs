@@ -1,4 +1,4 @@
-namespace OnlineMenu.Identity.Abstractions.Models;
+namespace Identity.Abstractions.Models;
 
 /// <summary>
 /// Request model for creating a new user

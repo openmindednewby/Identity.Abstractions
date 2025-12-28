@@ -1,6 +1,6 @@
-using OnlineMenu.Identity.Abstractions.Models;
+using Identity.Abstractions.Models;
 
-namespace OnlineMenu.Identity.Abstractions.Abstractions;
+namespace Identity.Abstractions.Abstractions;
 
 /// <summary>
 /// Service for managing users in the identity provider

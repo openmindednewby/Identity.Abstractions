@@ -1,4 +1,4 @@
-namespace OnlineMenu.Identity.Abstractions.Exceptions;
+namespace Identity.Abstractions.Exceptions;
 
 /// <summary>
 /// Base exception for identity-related errors

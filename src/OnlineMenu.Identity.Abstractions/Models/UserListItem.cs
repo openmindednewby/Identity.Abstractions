@@ -1,4 +1,4 @@
-namespace OnlineMenu.Identity.Abstractions.Models;
+namespace Identity.Abstractions.Models;
 
 /// <summary>
 /// User list item for displaying users

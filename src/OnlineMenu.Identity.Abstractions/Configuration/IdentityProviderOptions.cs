@@ -1,4 +1,4 @@
-namespace OnlineMenu.Identity.Abstractions.Configuration;
+namespace Identity.Abstractions.Configuration;
 
 /// <summary>
 /// Configuration options for identity provider
