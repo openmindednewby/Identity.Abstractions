@@ -6,8 +6,4 @@
     <Description>Provider-agnostic authentication abstractions. Supports multiple authentication methods including username/password, phone OTP, email OTP, and social login.</Description>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
-  </ItemGroup>
-
 </Project>

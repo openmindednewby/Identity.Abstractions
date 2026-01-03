@@ -1,4 +1,4 @@
-# OnlineMenu.Identity.Abstractions
+# Identity.Abstractions
 
 Provider-agnostic abstractions for identity and authentication in multi-tenant SaaS applications.
 
@@ -17,7 +17,7 @@ This package provides interfaces and models for implementing authentication with
 ## Installation
 
 ```bash
-dotnet add package OnlineMenu.Identity.Abstractions
+dotnet add package Identity.Abstractions
 ```
 
 ## Core Interfaces
@@ -163,6 +163,6 @@ MIT
 
 ## Related Packages
 
-- `OnlineMenu.Identity.Keycloak` - Keycloak implementation
-- `OnlineMenu.Identity.Auth0` - Auth0 implementation (coming soon)
-- `OnlineMenu.Identity.AzureAD` - Azure AD implementation (coming soon)
+- `Identity.Keycloak` - Keycloak implementation
+- `Identity.Auth0` - Auth0 implementation (coming soon)
+- `Identity.AzureAD` - Azure AD implementation (coming soon)

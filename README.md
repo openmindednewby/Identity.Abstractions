@@ -29,11 +29,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Related Packages
 
-- [OnlineMenu.DomainCore](https://www.nuget.org/packages/OnlineMenu.DomainCore)
-- [OnlineMenu.Security](https://www.nuget.org/packages/OnlineMenu.Security)
-- [OnlineMenu.MultiTenancy.EntityFrameworkCore](https://www.nuget.org/packages/OnlineMenu.MultiTenancy.EntityFrameworkCore)
+- [Identity.Keycloak](https://www.nuget.org/packages/Identity.Keycloak)
+- [MultiTenant.NotificationProviders](https://www.nuget.org/packages/MultiTenant.NotificationProviders)
+- [OtpAuthentication](https://www.nuget.org/packages/OtpAuthentication)
 
 ## Support
 
 - Issues: [GitHub Issues](https://github.com/yourusername/Identity.Abstractions/issues)
 - Discussions: [GitHub Discussions](https://github.com/yourusername/Identity.Abstractions/discussions)
+
+## How to Publish
+
+```bash
+cd  C:\desktopContents\projects\SaaS\NuGetPackages\Identity.Abstractions
+.\publish.ps1 -ApiKey XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -Bump major
+.\publish.ps1 -ApiKey XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -Bump minor
+
+```
