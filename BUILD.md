@@ -13,7 +13,7 @@ This guide explains how to build, pack, and publish this NuGet package.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Identity.Abstractions.git
+git clone https://github.com/openmindednewby/Identity.Abstractions.git
 cd Identity.Abstractions
 ```
 
@@ -276,8 +276,8 @@ Make sure symbols are enabled in `Directory.Build.props`:
 
 ## 💬 Support
 
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/Identity.Abstractions/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/Identity.Abstractions/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/openmindednewby/Identity.Abstractions/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/openmindednewby/Identity.Abstractions/discussions)
 - 📦 **NuGet**: [NuGet Package Page](https://www.nuget.org/packages/Identity.Abstractions)
 
 ---
