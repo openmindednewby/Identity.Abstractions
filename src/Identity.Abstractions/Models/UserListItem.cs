@@ -41,6 +41,11 @@ public class UserListItem
     public DateTime? CreatedTimestamp { get; set; }
 
     /// <summary>
+    /// Phone number
+    /// </summary>
+    public string? PhoneNumber { get; set; }
+
+    /// <summary>
     /// Roles assigned to the user
     /// </summary>
     public List<string> Roles { get; set; } = new();

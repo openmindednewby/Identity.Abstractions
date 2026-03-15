@@ -46,4 +46,20 @@ public interface IUserManagementService
     /// Remove roles from a user
     /// </summary>
     Task<bool> RemoveRolesAsync(string userId, List<string> roles, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Update a user's profile fields (firstName, lastName, email, phoneNumber).
+    /// Only non-null values are updated.
+    /// </summary>
+    Task<bool> UpdateUserProfileAsync(string userId, string? firstName, string? lastName, string? email, string? phoneNumber, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Get all active sessions for a user.
+    /// </summary>
+    Task<List<UserSession>> GetUserSessionsAsync(string userId, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Revoke (terminate) a specific user session.
+    /// </summary>
+    Task<bool> RevokeSessionAsync(string userId, string sessionId, CancellationToken cancellationToken = default);
 }

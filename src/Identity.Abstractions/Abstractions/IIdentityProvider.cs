@@ -71,4 +71,17 @@ public interface IIdentityProvider
         string code,
         Guid? tenantId = null,
         CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Validate user credentials without generating tokens.
+    /// Used for self-service password change verification.
+    /// </summary>
+    /// <param name="username">The username to validate</param>
+    /// <param name="password">The password to validate</param>
+    /// <param name="cancellationToken">Cancellation token</param>
+    /// <returns>True if the credentials are valid; otherwise, false.</returns>
+    Task<bool> ValidateCredentialsAsync(
+        string username,
+        string password,
+        CancellationToken cancellationToken = default);
 }
