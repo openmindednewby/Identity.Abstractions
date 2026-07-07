@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -6,6 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Abstractions", "src\Identity.Abstractions\Identity.Abstractions.csproj", "{B98030E0-54D0-472D-BB6F-7CDC26073533}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Abstractions.Tests", "tests\Identity.Abstractions.Tests\Identity.Abstractions.Tests.csproj", "{A8604810-8BA1-4EB1-BF32-E05750B71CAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,11 +33,24 @@ Global
 		{B98030E0-54D0-472D-BB6F-7CDC26073533}.Release|x64.Build.0 = Release|Any CPU
 		{B98030E0-54D0-472D-BB6F-7CDC26073533}.Release|x86.ActiveCfg = Release|Any CPU
 		{B98030E0-54D0-472D-BB6F-7CDC26073533}.Release|x86.Build.0 = Release|Any CPU
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC}.Debug|x64.Build.0 = Debug|Any CPU
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC}.Debug|x86.Build.0 = Debug|Any CPU
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC}.Release|x64.ActiveCfg = Release|Any CPU
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC}.Release|x64.Build.0 = Release|Any CPU
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC}.Release|x86.ActiveCfg = Release|Any CPU
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B98030E0-54D0-472D-BB6F-7CDC26073533} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{A8604810-8BA1-4EB1-BF32-E05750B71CAC} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 	EndGlobalSection
 EndGlobal
