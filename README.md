@@ -46,3 +46,6 @@ cd C:\desktopContents\projects\SaaS\NuGetPackages\Identity.Abstractions
 .\publish.ps1 -ApiKey XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -Bump minor  # New features
 .\publish.ps1 -ApiKey XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -Bump major  # Breaking changes
 ```
+## Permissions
+
+`Identity.Abstractions.Authorization.Permissions`: a product declares named permissions and a role -> permissions `PermissionMap`, then calls `services.AddPermissionAuthorization(map)`. Endpoints require `PermissionPolicy.For("funds.issue")` (`perm:funds.issue`); the policy is signed in + not blocked + a role claim granting the permission, checked by authorization handlers before model binding. Register `IBlockedPrincipalCheck` implementations to return 403 for a blocked user, organization or tenant; add `RequireNotBlocked()` to the default policy to cover non-permission endpoints. `map.ToMatrix()` returns the role x permission read model for a UI.
