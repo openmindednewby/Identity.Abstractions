@@ -1,0 +1,1 @@
+tests/Identity.Abstractions.Tests/Authorization/TenantManagedRoleSetTests.cs 1
